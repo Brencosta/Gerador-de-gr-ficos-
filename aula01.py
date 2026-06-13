@@ -22,7 +22,6 @@ plt.show()
 # DISPERSAO
 plt.figure(figsize=(8, 5))
 plt.scatter(df["MÉDIA"], df["N2"], alpha=0.7)
-
 plt.title("Relação entre Média e N2")
 plt.xlabel("MÉDIA")
 plt.ylabel("N2")
